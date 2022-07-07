@@ -106,10 +106,41 @@ section{
   background-color: rgba(182, 241, 241, 0.329);
 }
 #shelter-plan{
-  background-color: rgba(255, 228, 196, 0.692);
+  background-color: rgba(255, 228, 196, 0.6);
 }
 #education-plan{
   background-color: rgba(199, 146, 77, 0.575);
+}
+
+.update-area{
+  text-align: center;
+}
+form{
+  width: 50%;
+  margin: 40px auto;
+  padding: 60px 20px;
+  background-color: rgba(255, 228, 196, 0.4);
+  border-radius: 10px;
+}
+input[type="email"] {
+  width: 400px;
+  height: 40px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding-right: 50px;
+  background-color: lightgray;
+  border: 0;
+}
+
+input[type="submit"] {
+  margin-left: -50px;
+  height: 42px;
+  background-color: tomato;
+  font-size: 18px;
+  border: 0;
+  color: #FFFFFF;
+  padding: 0 20px;
+  font-weight: 700;
 }
 
 footer{
