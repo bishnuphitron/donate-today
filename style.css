@@ -86,7 +86,7 @@ section{
   text-align: center;
 }
 .plans{
-  width: 992px;
+  width: 980px;
   display: flex;
   margin: 60px auto;
   padding-left: 30px;
@@ -96,7 +96,7 @@ section{
   width: 300px;
   background-color: lightgray;
   border-radius: 5px;
-  margin-right: 25px;
+  margin-right: 20px;
   padding: 40px 20px;
 }
 .plan-title{
@@ -110,6 +110,28 @@ section{
 }
 #education-plan{
   background-color: rgba(199, 146, 77, 0.575);
+}
+
+.news-area{
+  text-align: center;
+}
+.news{
+  width: 980px;
+  margin: 30px auto;
+  display: flex;
+}
+.single-news{
+  width: 470px;
+  margin-right: 20px;
+  text-align: left;
+}
+.single-news img{
+  width: 100%;
+  height: 300px;
+}
+.news-detail h3{
+  font-size: 30px;
+  margin: 0;
 }
 
 .update-area{
