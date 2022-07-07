@@ -3,28 +3,41 @@ body{
   margin: 0;
 }
 
+h1{
+  font-size: 50px;
+  color: #FFFFFF;
+  margin: 0;
+}
+h2{
+  font-size: 40px;
+}
+h3{
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.65);
+}
+p{
+  color: dimgray;
+}
+section{
+  margin-bottom: 120px;
+}
+
 .banner-area{
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/donates/donation8.jpg);
   height: 500px;
+  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(images/donates/donation8.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 .banner-text{
-  width: 60%;
+  width: 50%;
   text-align: center;
-  color: #FFFFFF;
   margin: 0 auto;
-  padding-top: 80px;
+  padding-top: 100px;
 }
-
-h1{
-  font-size: 60px;
-  margin: 0;
-}
-p{
-  font-size: 18px;
-  margin-bottom: 30px;
+.banner-text p{
+  color: #FFFFFF;
+  margin-bottom: 40px;
 }
 .link-btn{
   text-decoration: none;
@@ -33,4 +46,84 @@ p{
   padding: 10px 20px;
   color: #FFFFFF;
   font-weight: 700;
+}
+
+.donation-info{
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+.amount{
+  display: flex;
+  margin: 40px 0;
+  padding-left: 25px;
+}
+.single-amount{
+  width: 130px;
+  text-align: center;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+#highlight-amount{
+  background-color: rgba(255, 182, 193, 0.5);
+  border: 1px solid red;
+}
+#highlight-amount h4{
+  color: red;
+}
+.amount-input{
+  width: 95%;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 14px;
+  border: none;
+  border-bottom: 1px solid gray;
+  margin-bottom: 25px;
+}
+
+.plan-area {
+  text-align: center;
+}
+.plans{
+  width: 992px;
+  display: flex;
+  margin: 60px auto;
+  padding-left: 30px;
+  text-align: start;
+}
+.single-plan{
+  width: 300px;
+  background-color: lightgray;
+  border-radius: 5px;
+  margin-right: 25px;
+  padding: 40px 20px;
+}
+.plan-title{
+  font-size: 24px;
+}
+#food-plan{
+  background-color: rgba(182, 241, 241, 0.329);
+}
+#shelter-plan{
+  background-color: rgba(255, 228, 196, 0.692);
+}
+#education-plan{
+  background-color: rgba(199, 146, 77, 0.575);
+}
+
+footer{
+  background-color: black;
+  padding: 50px 0;
+  text-align: center;
+}
+footer h3{
+  font-size: 36px;
+  color: salmon;
+  margin: 0;
+  font-family: 'Lobster', cursive;
+}
+footer p{
+  margin: 0;
+  color: lightgray;
 }
